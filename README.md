@@ -15,6 +15,5 @@ py -3.8 manage.py runserver
 3. Start the frontend using the following steps:
 ```json
 npm i
-env\Scripts\activate
 npm start
 ```
