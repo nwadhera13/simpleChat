@@ -6,6 +6,8 @@ Running the App locally:
 
 
 <b>NOTE: Python 3.8 is required to run.</b>
+
+<b>NOTE: Visual Studio C++ 2019 is required with Build Tools.</b>
 ```json
 pip install virtualenv
 virtualenv env
