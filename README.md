@@ -17,3 +17,5 @@ py -3.8 manage.py runserver
 npm i
 npm start
 ```
+
+Open 2 separate windows for testing the app.
