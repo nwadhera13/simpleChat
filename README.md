@@ -35,10 +35,16 @@ Open 2 separate windows for testing the app.
 </div>
 
 
-<b>Dependencies:</b>
+<b>Backend Dependencies:</b>
 
-1. Django: Used as the base for backend of the project.
-2. Django-Channels: Channels preserve the synchronous behavior of Django and add a layer of asynchronous protocols allowing users to write the views that are entirely synchronous, asynchronous, or a mixture of both. Channels basically allow the application to support “long-running connections”. It replaces Django’s default WSGI with its ASGI. These allowed me to make the chatting real-time.
+1. Django: Used as the base for the backend of the project.
+2. Django-Channels: Channels preserve the synchronous behavior of Django and add a layer of asynchronous protocols, allowing users to write views that are entirely synchronous, asynchronous, or a mixture of both. Channels basically allow the application to support “long-running connections”. It replaces Django’s default WSGI with its ASGI. These allowed me to make the chatting real-time.
 3. WebSocket:  WebSocket is a bidirectional communication protocol that can send data from the client to the server or from the server to the client by reusing the established connection channel. I needed a way to have a bi-directional connection between the server and the client. The client shouldn't need to ask for the messages and should receive them as soon as the server pushes them. This was implemented using WebSockets.
+4. Cors-Headers: I used Django-cors-headers to allow a port on the local machine to access our django server, which is blocked by default.
 
+
+<b>FrontEnd Dependencies:</b>
+1. ReactJS: Used as the base for the frontend of the project.
+2. MaterialUI: Used to design the app by creating different components using MUI and scaling them to utilise in different places.
+3. FrontEnd WebSockets: I used these to establish connection with our django server and maintain this bi-directional connection till the user exits the application or the chatroom.
 
