@@ -6,9 +6,10 @@ Running the App locally:
 
 ```json
 virtualenv env
-source env/bin/activate
-pip install -r requirements.txt
-python manage.py runserver
+env\Scripts\activate
+py -3.8 -m pip install -r requirements.txt
+py -3.8 manage.py migrate
+py -3.8 manage.py runserver
 ```
 
 3. Start the frontend using the following steps:
