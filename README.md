@@ -3,7 +3,7 @@
 Running the App locally:
 
 1. Start the backend by following these steps:
-
+<b>NOTE: Python 3.8 is required to run.</b>
 ```json
 pip install virtualenv
 virtualenv env
