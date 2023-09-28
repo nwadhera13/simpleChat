@@ -23,8 +23,8 @@ Open 2 separate windows for testing the app.
 
 
 
-<div align="center">
 <b>Running Example:</b>
+<div align="center">
 
 
 <img width="382" alt="simpleChatPic2" src="https://github.com/nwadhera13/simpleChat/assets/68321799/ff6ccd6f-a6a9-40eb-b4dc-2692626c99c2">
