@@ -35,4 +35,10 @@ Open 2 separate windows for testing the app.
 </div>
 
 
+<b>Dependencies:</b>
+
+1. Django: Used as the base for backend of the project.
+2. Django-Channels: Channels preserve the synchronous behavior of Django and add a layer of asynchronous protocols allowing users to write the views that are entirely synchronous, asynchronous, or a mixture of both. Channels basically allow the application to support “long-running connections”. It replaces Django’s default WSGI with its ASGI. These allowed me to make the chatting real-time.
+3. WebSocket:  WebSocket is a bidirectional communication protocol that can send data from the client to the server or from the server to the client by reusing the established connection channel. I needed a way to have a bi-directional connection between the server and the client. The client shouldn't need to ask for the messages and should receive them as soon as the server pushes them. This was implemented using WebSockets.
+
 
