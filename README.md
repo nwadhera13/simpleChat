@@ -18,5 +18,5 @@ npm i
 npm start
 ```
 
-Open 2 separate windows for testing the app.
+Open 2 separate windows for testing the app.\n
 <img width="373" alt="simpleChatPic" src="https://github.com/nwadhera13/simpleChat/assets/68321799/721f845a-638f-460c-8fd8-99ca411e8b49">
