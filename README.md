@@ -5,6 +5,7 @@ Running the App locally:
 1. Start the backend by following these steps:
 
 ```json
+pip install virtualenv
 virtualenv env
 env\Scripts\activate
 py -3.8 -m pip install -r requirements.txt
