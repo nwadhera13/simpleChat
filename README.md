@@ -27,11 +27,11 @@ Open 2 separate windows for testing the app.
 <div align="center">
 
 
-<img width="382" alt="simpleChatPic2" src="https://github.com/nwadhera13/simpleChat/assets/68321799/ff6ccd6f-a6a9-40eb-b4dc-2692626c99c2">
-
 <img width="373" alt="simpleChatPic" src="https://github.com/nwadhera13/simpleChat/assets/68321799/721f845a-638f-460c-8fd8-99ca411e8b49">  
 
 <img width="370" alt="simpleChatPic3" src="https://github.com/nwadhera13/simpleChat/assets/68321799/60094151-7011-452d-999a-41ee68c79af6">
+
+<img width="382" alt="simpleChatPic2" src="https://github.com/nwadhera13/simpleChat/assets/68321799/ff6ccd6f-a6a9-40eb-b4dc-2692626c99c2">
 </div>
 
 
